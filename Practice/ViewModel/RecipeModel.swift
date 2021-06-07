@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class RecipeModel {
+    
+    @Published var model = [Recipe]()
+    
+    init() {
+        
+        
+        
+    }
+    
+}

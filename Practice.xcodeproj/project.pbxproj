@@ -14,6 +14,7 @@
 		AF9E6BC0266DC66600D57289 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6BBF266DC66600D57289 /* recipes.json */; };
 		AF9E6BC5266DCA8700D57289 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC4266DCA8700D57289 /* Recipe.swift */; };
 		AF9E6BC7266DCA9A00D57289 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC6266DCA9A00D57289 /* RecipeModel.swift */; };
+		AF9E6BCA266DCEA800D57289 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC9266DCEA800D57289 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AF9E6BBF266DC66600D57289 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		AF9E6BC4266DCA8700D57289 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		AF9E6BC6266DCA9A00D57289 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		AF9E6BC9266DCEA800D57289 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				AF9E6BC1266DCA3700D57289 /* View */,
 				AF9E6BC3266DCA4600D57289 /* ViewModel */,
 				AF9E6BC2266DCA4000D57289 /* Model */,
+				AF9E6BC8266DCE8D00D57289 /* Service */,
 				AF59B2D1266D171400F3B9DE /* Assets.xcassets */,
 				AF9E6BBF266DC66600D57289 /* recipes.json */,
 				AF59B2D6266D171400F3B9DE /* Info.plist */,
@@ -100,6 +103,14 @@
 				AF9E6BC6266DCA9A00D57289 /* RecipeModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF9E6BC8266DCE8D00D57289 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF9E6BC9266DCEA800D57289 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				AF9E6BC7266DCA9A00D57289 /* RecipeModel.swift in Sources */,
 				AF59B2CE266D171300F3B9DE /* PracticeApp.swift in Sources */,
 				AF9E6BC5266DCA8700D57289 /* Recipe.swift in Sources */,
+				AF9E6BCA266DCEA800D57289 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
