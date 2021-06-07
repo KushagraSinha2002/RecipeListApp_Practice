@@ -7,13 +7,13 @@
 
 import Foundation
 
-class RecipeModel {
+class RecipeModel: ObservableObject {
     
-    @Published var model = [Recipe]()
+    @Published var recipe = [Recipe]()
     
     init() {
         
-        
+        self.recipe = DataService.getLocalData()
         
     }
     
