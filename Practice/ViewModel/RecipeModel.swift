@@ -9,11 +9,11 @@ import Foundation
 
 class RecipeModel: ObservableObject {
     
-    @Published var recipe = [Recipe]()
+    @Published var recipes = [Recipe]()
     
     init() {
         
-        self.recipe = DataService.getLocalData()
+        self.recipes = DataService.getLocalData()
         
     }
     
