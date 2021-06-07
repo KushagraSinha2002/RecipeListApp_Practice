@@ -12,7 +12,7 @@
 		AF59B2D2266D171400F3B9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF59B2D1266D171400F3B9DE /* Assets.xcassets */; };
 		AF59B2D5266D171400F3B9DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF59B2D4266D171400F3B9DE /* Preview Assets.xcassets */; };
 		AF8160AF266DF01000B70132 /* RecipeDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8160AE266DF01000B70132 /* RecipeDetailview.swift */; };
-		AF9E6BC0266DC66600D57289 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9E6BBF266DC66600D57289 /* recipes.json */; };
+		AF8160B1266DF65C00B70132 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = AF8160B0266DF65C00B70132 /* recipes.json */; };
 		AF9E6BC5266DCA8700D57289 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC4266DCA8700D57289 /* Recipe.swift */; };
 		AF9E6BC7266DCA9A00D57289 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC6266DCA9A00D57289 /* RecipeModel.swift */; };
 		AF9E6BCA266DCEA800D57289 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E6BC9266DCEA800D57289 /* DataService.swift */; };
@@ -26,7 +26,7 @@
 		AF59B2D4266D171400F3B9DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF59B2D6266D171400F3B9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8160AE266DF01000B70132 /* RecipeDetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailview.swift; sourceTree = "<group>"; };
-		AF9E6BBF266DC66600D57289 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		AF8160B0266DF65C00B70132 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		AF9E6BC4266DCA8700D57289 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		AF9E6BC6266DCA9A00D57289 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		AF9E6BC9266DCEA800D57289 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 				AF9E6BC3266DCA4600D57289 /* ViewModel */,
 				AF9E6BC2266DCA4000D57289 /* Model */,
 				AF9E6BC8266DCE8D00D57289 /* Service */,
+				AF8160B0266DF65C00B70132 /* recipes.json */,
 				AF59B2D1266D171400F3B9DE /* Assets.xcassets */,
-				AF9E6BBF266DC66600D57289 /* recipes.json */,
 				AF59B2D6266D171400F3B9DE /* Info.plist */,
 				AF59B2D3266D171400F3B9DE /* Preview Content */,
 			);
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF59B2D5266D171400F3B9DE /* Preview Assets.xcassets in Resources */,
-				AF9E6BC0266DC66600D57289 /* recipes.json in Resources */,
+				AF8160B1266DF65C00B70132 /* recipes.json in Resources */,
 				AF59B2D2266D171400F3B9DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

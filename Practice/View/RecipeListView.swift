@@ -18,7 +18,7 @@ struct RecipeListView: View {
             List(model.recipes){r in
                 
                 NavigationLink(
-                    destination: Text("Destination"),
+                    destination: RecipeDetailview(recipe: r),
                     label: {
                         HStack{
                             
