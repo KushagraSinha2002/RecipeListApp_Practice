@@ -15,26 +15,39 @@ struct RecipeListView: View {
         
         NavigationView{
             
-            List(model.recipes){r in
+            ScrollView {
                 
-                NavigationLink(
-                    destination: RecipeDetailview(recipe: r),
-                    label: {
-                        HStack{
-                            
-                            Image(r.image)
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 50, height: 50, alignment: .center)
-                                .clipped()
-                            
-                            Text(r.name)
-                            
-                            
-                        }
-                    })
                 
-            }.navigationBarTitle("My Recipe's")
+                LazyVStack(alignment: .leading) {
+                    
+                    Text("All Recipe's")
+                        .font(.largeTitle)
+                        .bold()
+                        .padding(.top, 40)
+                    
+                    ForEach(model.recipes){r in
+                        
+                        NavigationLink(
+                            destination: RecipeDetailview(recipe: r),
+                            label: {
+                                HStack{
+                                    
+                                    Image(r.image)
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 50, height: 50, alignment: .center)
+                                        .clipped()
+                                    
+                                    Text(r.name)
+                                        .foregroundColor(.black)
+                                    
+                                    
+                                }
+                            })
+                        
+                    }.navigationBarHidden(true)
+                }.padding(.leading)
+            }
             
         }
         
