@@ -19,7 +19,7 @@ struct RecipeTabView: View {
                         
                         Text("Featured View")
                     }
-            }
+                }
             
             RecipeListView()
                 .tabItem {
@@ -27,10 +27,10 @@ struct RecipeTabView: View {
                         Image(systemName: "list.bullet")
                         
                         Text("Recipe List")
+                    }
+                    
+                    
                 }
-                    
-                    
-            }
             
         }
         
@@ -40,5 +40,6 @@ struct RecipeTabView: View {
 struct RecipeTabView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeTabView()
+            .environmentObject(RecipeModel())
     }
 }

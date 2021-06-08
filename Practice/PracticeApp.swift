@@ -12,6 +12,7 @@ struct PracticeApp: App {
     var body: some Scene {
         WindowGroup {
             RecipeTabView()
+                .environmentObject(RecipeModel())
         }
     }
 }

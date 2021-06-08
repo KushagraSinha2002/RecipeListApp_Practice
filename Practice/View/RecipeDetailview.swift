@@ -16,7 +16,7 @@ struct RecipeDetailview: View {
         ScrollView{
             
             VStack(alignment: .leading){
-               
+                
                 // MARK:Recipe Image
                 Image(recipe.image)
                     .resizable()
